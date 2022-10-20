@@ -7,6 +7,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #7DFFD4;
 }
 
 .container {
@@ -15,6 +16,7 @@ body {
   align-content: center;
   width: 510px;
   height: 510px;
+  background-color: white;
 }
 
 .square {
@@ -28,5 +30,5 @@ body {
 }
 
 .azure {
-  background-color: #81dada;
+  background-color: #7DFFD4;
 }
