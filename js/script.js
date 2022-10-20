@@ -29,11 +29,17 @@
 // Facciamo apparire i quadratini dinamicamente con js
 
 const container = document.querySelector('.container');
-const squareForRow = 10;
+let squareForRow;
+
+
+// select levels
+const select = document.querySelector('[name="levels"]');
+
 
 //creo una funzione per far partire tutto e far stampare i quadratini e per poter calcolare gli squares totali
 // aggungo un bottone che fa partire tutto al click
 document.getElementById('start').addEventListener('click', function(){
+  squareForRow = document.querySelector('[name="levels"]').value;
   container.innerHTML = '';
   init(squareForRow);
 })
