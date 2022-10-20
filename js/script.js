@@ -39,17 +39,18 @@ function init(numElements) {
   const totalSquares = numElements * numElements;
   for(let i = 0; i < totalSquares; i++) {
     //funzione per creare quadratini
-    createSquare()
+    createSquare(i)
   }
   
 }
 
 //creo una funzione per creare quadratini
-function createSquare() {
+function createSquare(idSquare) {
   //creo il quadratino
   //gli do un valore
   //lo appendo al container
   const square = document.createElement('div');
   square.className = 'square';
+  square.innerHTML = idSquare + 1
   container.append(square);
 }
