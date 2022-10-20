@@ -58,4 +58,5 @@ function createSquare(idSquare) {
 
 function clickSquare() {
   console.log(this.innerText);
+  this.classList.add('azure');
 }
