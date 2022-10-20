@@ -19,6 +19,13 @@ header {
   height: 75px;
 }
 
+button {
+  cursor: pointer;
+  width: 100px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+}
 
 
 /* main */
