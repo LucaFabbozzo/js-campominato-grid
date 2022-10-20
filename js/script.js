@@ -32,8 +32,12 @@ const container = document.querySelector('.container');
 const squareForRow = 10;
 
 //creo una funzione per far partire tutto e far stampare i quadratini e per poter calcolare gli squares totali
+// aggungo un bottone che fa partire tutto al click
+document.getElementById('start').addEventListener('click', function(){
+  container.innerHTML = '';
+  init(squareForRow);
+})
 
-init(squareForRow);
 
 function init(numElements) {
   const totalSquares = numElements * numElements;
