@@ -56,8 +56,14 @@ function createSquare(idSquare) {
   const square = document.createElement('div');
   square.className = 'square';
   square.innerText = idSquare + 1;
+  square.style.width = generateCalc();
+  square.style.height = generateCalc();
   square.addEventListener('click', clickSquare);
   container.append(square);
+}
+
+function generateCalc() {
+  return `calc(100% / ${squareForRow})`;
 }
 
 function clickSquare() {
