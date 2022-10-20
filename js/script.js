@@ -51,6 +51,11 @@ function createSquare(idSquare) {
   //lo appendo al container
   const square = document.createElement('div');
   square.className = 'square';
-  square.innerHTML = idSquare + 1
+  square.innerText = idSquare + 1;
+  square.addEventListener('click', clickSquare);
   container.append(square);
+}
+
+function clickSquare() {
+  console.log(this.innerText);
 }
