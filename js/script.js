@@ -38,4 +38,12 @@ init(squareForRow);
 function init(numElements) {
   const totalSquares = Math.pow(numElements, 2);
   console.log(totalSquares)
+  //funzione per creare quadratini
+}
+
+//creo una funzione per creare quadratini
+function createSquare() {
+  //creo il quadratino
+  //gli do un valore
+  //lo appendo al container
 }
