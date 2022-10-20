@@ -12,13 +12,13 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
-  width: 500px;
-  height: 500px;
+  align-content: center;
+  width: 510px;
+  height: 510px;
 }
 
 .square {
-  width: calc(100% / 8);
-  height: calc(100% / 8);
-  border: 2px solid black;
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+  border: 1px solid black;
 }

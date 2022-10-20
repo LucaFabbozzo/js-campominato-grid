@@ -36,9 +36,12 @@ const squareForRow = 10;
 init(squareForRow);
 
 function init(numElements) {
-  const totalSquares = Math.pow(numElements, 2);
-  console.log(totalSquares)
-  //funzione per creare quadratini
+  const totalSquares = numElements * numElements;
+  for(let i = 0; i < totalSquares; i++) {
+    //funzione per creare quadratini
+    createSquare()
+  }
+  
 }
 
 //creo una funzione per creare quadratini
@@ -46,4 +49,7 @@ function createSquare() {
   //creo il quadratino
   //gli do un valore
   //lo appendo al container
+  const square = document.createElement('div');
+  square.className = 'square';
+  container.append(square);
 }
