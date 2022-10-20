@@ -23,3 +23,19 @@
 // 2 Creare la griglia dinamicamente
 // 3 Numerare i quadratini
 // 4 Gestire il click del quadratino
+
+
+
+// Facciamo apparire i quadratini dinamicamente con js
+
+const container = document.querySelector('.container');
+const squareForRow = 10;
+
+//creo una funzione per far partire tutto e far stampare i quadratini e per poter calcolare gli squares totali
+
+init(squareForRow);
+
+function init(numElements) {
+  const totalSquares = Math.pow(numElements, 2);
+  console.log(totalSquares)
+}
