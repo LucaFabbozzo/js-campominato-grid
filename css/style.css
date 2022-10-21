@@ -50,7 +50,7 @@ select {
   align-content: center;
   width: 510px;
   height: 510px;
-  background-color: white;
+  background-color: #7DFFD4;
 }
 
 .square {
@@ -64,7 +64,7 @@ select {
 }
 
 .azure {
-  background-color: #7DFFD4;
+  background-color: #179369;
 }
 
 

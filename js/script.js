@@ -18,6 +18,7 @@
 
 
 const container = document.querySelector('.container');
+
 let squareForRow;
 
 // select levels
